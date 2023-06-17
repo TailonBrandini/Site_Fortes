@@ -1,0 +1,134 @@
+body {
+  font-family: Nova Square;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: rgb(8, 78, 140);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#content {
+  max-width: 120%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-field input[type="checkbox"],
+.form-field input[type="text"] {
+  margin-right: 10px;
+}
+
+.selected-skills {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.add-skill-field {
+  margin-bottom: 10px;
+}
+
+.add-skill-field input[type="text"] {
+  width: 200px;
+}
+
+.add-skill-button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-skill-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.return-logo {
+  position: absolute;
+  top: 15px;
+  left: 80%;
+  width: 200px;
+  height: auto;
+  border-radius: 5%;
+}
+
+.main {
+  display: flex;
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
+.main-op {
+  background-image: url("https://github.com/AlcantaroBiel/Facebook-login/blob/main/img/aaaaa.png?raw=true");
+  background-size: cover;
+}
+
+#content {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-field input[type="submit"] {
+  color: white;
+  font-size: 20px;
+  width: 25%;
+  height: 35px;
+  border: 0;
+  background-color: #04BF8A;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px #049169
+}
+
+.confirmar button {
+  position: absolute;
+  color: white;
+  font-family: 'Nova Square', cursive;
+  font-size: 20px;
+  width: 15%;
+  height: 45px;
+  right: 25%;
+  background-color: #04BF8A;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px #049169
+}
+
+.menu-main-posts button {
+  font-family: 'Nova Square', cursive;
+  font-size: 20px;
+  width: 25%;
+  height: 40px;
+  margin: 4% 37.5%;
+  background-color: #05F26C;
+  border-radius: 10%;
+  cursor: pointer;
+}

@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    font-family: 'Nova Square', cursive;
+}
+
+.main {
+    display: flex;
+    background-color: rgba(200, 200, 200, 0.2);
+}
+
+.main-op {
+    background-image: url("https://github.com/AlcantaroBiel/Facebook-login/blob/main/img/aaaaa.png?raw=true");
+    background-size: cover;
+}
+
+.perfil-aba-container {
+    background-color: #fffdf6;
+    width: 25%;
+    height: 100vh;
+    margin-left: 5%;
+    flex-wrap: wrap;
+    box-shadow: 0px 1px 10px #6f6f6f;
+}
+
+
+
+body {
+    font-family: 'Nova Square', cursive;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#fontSizeRange {
+    width: 200px;
+}
+
+.logo {
+    margin: 0 13%;
+    margin-top: 25px;
+    width: 75%;
+}
+
+.foto-perfil {
+    margin: 0 25%;
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 100%;
+}
+
+.perfil-aba-main {
+    margin: 7% 0;
+}
+
+.perfil-aba-main p {
+    text-align: center;
+    font-size: 18px;
+    width: 50%;
+    margin: 0 25%;
+    margin-top: 30px;
+}
+
+.perfil-aba-nav {
+    font-size: 18px;
+}
+
+.perfil-aba-nav-opt {
+    margin-bottom: 5px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    border-radius: 5%;
+    display: flex;
+    box-shadow: 0px 1px 10px #6f6f6f;
+}
+
+.perfil-aba-nav-opt-selected {
+    margin-bottom: 5px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    border-radius: 5%;
+    display: flex;
+    box-shadow: 0px 1px 10px #6f6f6f;
+}
+
+.perfil-aba-nav-opt img {
+    flex-wrap: wrap;
+    height: 50px;
+    width: 50px;
+}
+
+.perfil-aba-nav-opt p {
+    margin-top: 17px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.perfil-aba-nav-opt-selected img {
+    flex-wrap: wrap;
+    height: 50px;
+    width: 50px;
+}
+
+.perfil-aba-nav-opt-selected p {
+    color: white;
+    margin-top: 17px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-main {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 3%;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    width: 90%;
+    background-color: #f4f4f4;
+    flex-wrap: wrap;
+    box-shadow: 0px 1px 10px #6f6f6f;
+    height: 94vh;
+    overflow-y: scroll;
+}
+
+.menu-main-title h1 {
+    color: white;
+    background-color: #084F8C;
+    padding: 2% 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.menu-main-posts {
+    background-color: #fffdf6;
+    width: 60%;
+    margin: 15px 20%;
+    padding: 20px 30px;
+    border-radius: 2%;
+    box-shadow: 0px 1px 10px #6f6f6f;
+}
+
+.config-icon {
+    position: absolute;
+    top: 10px;
+    right: 1030px;
+    font-size: 24px;
+    color: #000;
+}
+
+
+.config-icon {
+    position: absolute;
+    top: 10px;
+    right: 76%;
+    font-size: 24px;
+    color: #000;
+}
+
+.suporte-icon {
+    position: absolute;
+    top: 10px;
+    right: 92%;
+    font-size: 24px;
+    color: #000;
+}
+
+.logout-icon {
+    position: absolute;
+    top: 10px;
+    right: 1%;
+    font-size: 24px;
+    color: #000000;
+}
+
+.perfil-aba-nav-opt:hover {
+    background-color: grey;
+}
+

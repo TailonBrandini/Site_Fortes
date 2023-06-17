@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+</head>
+    <title>Login</title>
+    <link
+    rel="shortcut icon"
+    href="https://cdn.glitch.global/d9f9ea95-a051-4b69-becf-d2057ac98f73/My_project-1-removebg-preview.ico?v=1686163980389"
+    type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" text="text/javascript"></script>
+</head>
+
+<body>
+    <div class="main_login">
+        <div class="left_login">
+            <h1>Bem vindo ao time Fortes<br>Faça seu Login</h1>
+        </div>
+        <div class="right_login">
+            <div class="card_login">
+                <form action="menu.html" onsubmit="fazerLogin(event)">
+                    <img src="https://cdn.glitch.global/d9f9ea95-a051-4b69-becf-d2057ac98f73/FORTES_LOGO.png?v=1685429439681" alt="" id="fortes">
+                    <div class="textfield">
+                        <label for="usuario">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite o Email" required>
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input id="senha" type="password" name="senha" placeholder="Digite a Senha" required>
+                    </div>
+                    <button class="btn_login" onclick="fazerLogin()">Entrar</button>
+                </form>
+                <p>É o seu primeiro cadastro?</p>
+                <hr>
+                <a href="cadastro.html" class="cadastro">Cadastre-se</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

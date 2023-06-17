@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" type="text/css" href="menu.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+  <link rel="shortcut icon"
+    href="https://cdn.glitch.global/d9f9ea95-a051-4b69-becf-d2057ac98f73/My_project-1-removebg-preview.ico?v=1686163980389"
+    type="image/x-icon">
+  <a href="login.html"></a>
+  <script src="menu.Js"></script>
+
+
+</head>
+
+<body>
+  <main>
+
+    <!--Icone de configutrações-->
+    <div class="config-icon">
+      <a href="config.html">
+        <i class="fas fa-cogs"></i>
+      </a>
+    </div>
+
+    <!--Icone de suporte-->
+    <div class="suporte-icon">
+      <a href="suporte.html">
+        <i class="fas fa-question-circle"></i>
+      </a>
+    </div>
+    <!--Icone Para Sair-->
+
+    <div class="logout-icon">
+      <a href="login.html">
+        <i class="fas fa-sign-out-alt"></i>
+    </div>
+    </a>
+    <div class="main-op">
+      <div class="main">
+        <div class="perfil-aba-container">
+          <div class="perfil-aba-main">
+            <img class="logo"
+              src="https://cdn.discordapp.com/attachments/712134235854733404/1116077785555947670/FORTES_LOGOMARCA_moldura-e1660776738611.png">
+            <img class="foto-perfil"
+              src="https://github.com/AlcantaroBiel/GAMEFLIX/blob/main/img/depositphotos_12899586-stock-photo-construction-engineer.png?raw=true">
+            <p>Ricardo Telles</p>
+          </div><!--perfil-aba-main-->
+
+          <div class="perfil-aba-nav">
+            <a href="menu.html" class="perfil-aba-nav-opt-selected">
+              <img src="https://github.com/AlcantaroBiel/Facebook-login/blob/main/img/aaaaaadsaddsa.png?raw=true">
+              <p>Início</p>
+            </a> <!--perfil-aba-nav-opt-->
+
+            <a href="perfil.html" class="perfil-aba-nav-opt">
+              <img src="https://cdn-icons-png.flaticon.com/512/3106/3106921.png">
+              <p>Perfil</p>
+            </a> <!--perfil-aba-nav-opt-->
+
+            <a href="/comunidades/comunidades.html" class="perfil-aba-nav-opt">
+              <img src="https://cdn-icons-png.flaticon.com/512/3127/3127995.png">
+              <p>Comunidades</p>
+            </a><!--perfil-aba-nav-opt-->
+
+
+          </div><!--perfil-aba-nav-->
+        </div><!--perfil-aba-container-->
+
+        <div class="menu-main">
+          <div class="menu-main-title">
+            <h1>Início</h1>
+            <hr>
+            <h2>Feed de mensagens gerais</h2>
+          </div><!--menu-main-title-->
+
+          <div class="menu-main-posts">
+            <h3>Estamos liberamos um curso de programador!</h3>
+            <p>Além de ser uns dos melhores cursos, é grátis, não perca essa oportunidade.</p>
+            <img src="https://github.com/AlcantaroBiel/Facebook-login/blob/main/img/programa.jpeg?raw=true">
+            <button onclick="inscricao()">Participar!</button>
+          </div><!--menu-main-posts-->
+
+          <div class="menu-main-posts">
+            <h3>Primeira Comunidades Liberadas!</h3>
+            <p>Futebol e canto são as comunidades liberadas, logo mais terá centenas de comunidades.</p>
+            <img src="https://github.com/AlcantaroBiel/Facebook-login/blob/main/img/comunidades.jpeg?raw=true">
+          </div><!--menu-main-posts-->
+          <div class="menu-main-posts">
+            <h3>Lançamento do banco de talentos!</h3>
+            <p>A partir de agora as comunidades dos bancos de talentos está liberado! Bom proveito :D</p>
+            <img
+              src="https://github.com/AlcantaroBiel/Facebook-login/blob/main/img/WhatsApp%20Image%202023-06-08%20at%2020.59.02.jpeg?raw=true">
+          </div><!--menu-main-posts-->
+
+          <div class="menu-main-posts">
+            <h3>Login liberado!</h3>
+            <p>Entre em contato com a administração e resgate seu token de acesso para se cadastrar no banco de
+              talentos!</p>
+            <img
+              src="https://github.com/AlcantaroBiel/Facebook-login/blob/main/img/WhatsApp%20Image%202023-06-08%20at%2020.59.01.jpeg?raw=true">
+          </div><!--menu-main-posts-->
+
+          <div class="menu-main-posts">
+            <h3>Reunião Geral</h3>
+            <p>Segue a informação da reunião no post abaixo</p>
+            <img src="https://github.com/AlcantaroBiel/Facebook-login/blob/main/img/reuniao.jpeg?raw=true">
+          </div><!--menu-main-posts-->
+
+          <div class="menu-main-posts">
+            <h3>Estamos Finalizando a nova novidade da nossa Empresa</h3>
+            <p>É com enorme felicidade que comunicamos a nova inova da empresa FORTES ENGENHARIA</p>
+            <img src="https://github.com/AlcantaroBiel/Facebook-login/blob/main/img/construcao.jpeg?raw=true">
+          </div><!--menu-main-posts-->
+
+        </div><!--menu-main-->
+      </div><!--main-op-->
+    </div><!--main-->
+  </main>
+  <script>
+    function inscricao() {
+      alert("Você foi inscrito em 'Estamos liberamos um curso de programador!', seja bem vindo!")
+    }
+  </script>
+</body>
+
+</html>

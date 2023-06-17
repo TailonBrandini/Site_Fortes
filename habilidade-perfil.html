@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Selecione Suas Habilidades</title>
+
+  <link rel="stylesheet" type="text/css" href="menu.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+  <link rel="shortcut icon"
+    href="https://cdn.glitch.global/d9f9ea95-a051-4b69-becf-d2057ac98f73/My_project-1-removebg-preview.ico?v=1686163980389"
+    type="image/x-icon">
+  <link rel="stylesheet" href="habilidade-perfil.css">
+  <script src="habilidade-perfil.js"></script>
+
+<body>
+  <main>
+    <div class="main-op">
+      <div id="content">
+        <div id="header">
+          <a href="perfil.html"><img
+              src="https://cdn.discordapp.com/attachments/712134235854733404/1116077785555947670/FORTES_LOGOMARCA_moldura-e1660776738611.png"
+              class="return-logo"></a>
+          <h1>Selecione Suas Habilidades</h1>
+        </div>
+
+        <div id="content">
+          <h1>Habilidades</h1>
+          <p>Selecione suas habilidades nas seguintes categorias:</p>
+
+          <form class="skills-form">
+            <div class="form-field">
+              <label for="hard-skills">Hard Skills:</label>
+              <input type="checkbox" name="hard-skills" value="programacao"> Programação
+              <input type="checkbox" name="hard-skills" value="design"> Design
+              <input type="checkbox" name="hard-skills" value="analytics"> Analytics
+              <input type="checkbox" name="hard-skills" value="marketing"> Marketing
+              <input type="checkbox" name="hard-skills" value="python"> Python
+            </div>
+
+            <div class="form-field">
+              <label for="soft-skills">Soft Skills:</label>
+              <input type="checkbox" name="soft-skills" value="comunicacao"> Comunicação
+              <input type="checkbox" name="soft-skills" value="lideranca"> Liderança
+              <input type="checkbox" name="soft-skills" value="trabalho-em-equipe"> Trabalho em Equipe
+              <input type="checkbox" name="soft-skills" value="resolucao-de-problemas"> Resolução de Problemas
+              <input type="checkbox" name="soft-skills" value="proatividade"> Proatividade
+            </div>
+
+            <div class="form-field">
+              <label for="hobbies">Hobbies:</label>
+              <input type="checkbox" name="hobbies" value="esportes"> Esportes
+              <input type="checkbox" name="hobbies" value="musica"> Música
+              <input type="checkbox" name="hobbies" value="arte"> Arte
+              <input type="checkbox" name="hobbies" value="culinaria"> Culinária
+              <input type="checkbox" name="hobbies" value="ler"> Ler
+            </div>
+
+            <div class="form-field add-skill-field">
+              <label for="custom-skill">Habilidade Personalizada:</label>
+              <input type="text" name="custom-skill" class="custom-skill-input">
+              <button class="add-skill-button" disabled>Adicionar</button>
+            </div>
+
+            <div class="custom-skills form-field"></div>
+
+            <div class="form-field">
+              <input type="submit" value="Enviar Habilidades">
+            </div>
+          </form>
+          <div class="confirmar">
+            <a href="perfil.html">
+              <button type="button">Confirmar</button>
+            </a>
+            
+          </div>
+
+          <div class="selected-skills"></div>
+        </div>
+      </div>
+      </div>
+     </main>
+</body>
+
+</html>

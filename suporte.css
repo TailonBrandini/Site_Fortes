@@ -1,0 +1,108 @@
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #f2f2f2;
+   margin: 0;
+   padding: 0;
+ }
+
+ .main {
+   display: flex;
+   background-color: rgba(200, 200, 200, 0.2);
+
+ }
+
+ .main-op {
+   background-image: url("https://github.com/AlcantaroBiel/Facebook-login/blob/main/img/aaaaa.png?raw=true");
+   background-size: cover;
+ }
+
+ #header {
+   background-color: rgb(8, 79, 140, 0.75);
+
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+ }
+
+ #content {
+   max-width: 800px;
+   margin: 20px auto;
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ h1 {
+   font-size: 24px;
+   margin: 0 0 20px;
+   margin-top: 10px;
+ }
+
+ p {
+   display: inline-block;
+   margin-bottom: 20px;
+ }
+
+ .return-logo {
+   position: absolute;
+   top: 15px;
+   left: 50px;
+   width: 200px;
+   height: auto;
+   border-radius: 5%;
+ }
+
+ .button {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #084F8C;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 3px;
+ }
+
+ .button:hover {
+   background-color: #555555;
+ }
+
+ .contact-form {
+   margin-top: 30px;
+ }
+
+ .form-field {
+   margin-bottom: 0px;
+ }
+
+ .form-field label {
+   padding-top: 10px;
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+ }
+
+ .form-field input,
+ .form-field textarea {
+   width: 95%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   resize: vertical;
+ }
+
+ .form-field textarea {
+   height: 150px;
+ }
+
+ .form-field input[type="submit"] {
+   width: 99%;
+   border-radius: 10px;
+   background-color: #04BF8A;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+ }
+
+ .form-field input[type="submit"]:hover {
+   background-color: #555;
+ }
